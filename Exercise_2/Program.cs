@@ -24,7 +24,17 @@ namespace Exercise_2
                     else
                         Console.WriteLine("\nArray dapat mempunyai maksimal 31 elemen.\n");
                 }
-            }
+                Console.WriteLine("");
+                Console.WriteLine("------------------------");
+                Console.WriteLine(" Masukkan elemen array");
+                Console.WriteLine("------------------------");
+
+                //input data ke array sebanyak n data
+                for (i = 0; i <= n - 1; i++)
+                {
+                    Console.Write("<" + (i + 1) + "> ");
+                    tasya[i] = Convert.ToInt32(Console.ReadLine());
+                }
 
         {
           
