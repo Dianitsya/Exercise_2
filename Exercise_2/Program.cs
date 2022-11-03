@@ -91,7 +91,8 @@ namespace Exercise_2
                             tasya[dm] = tasya[k];
                             i++;
                         }
-                  
+                    case 3:
+                        break;
                 }
             }
         }
