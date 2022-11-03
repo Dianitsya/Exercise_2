@@ -10,7 +10,7 @@ namespace Exercise_2
     {
         static void Main(string[] args)
         {
-            int i, n, dm, temp;
+            int i, n, dm, temp, k, low, high, mid;
             int[] tasya = new int[31];
             {
                 while (true)
@@ -44,8 +44,29 @@ namespace Exercise_2
                 Console.Write("Pilihan : ");
                 int pilihan = Convert.ToInt32(Console.ReadLine());
 
+                switch (pilihan)
                 {
-          
-        }
+                    case 1:
+                        //proses Insertion Sort
+                        dm = 0;
+                        for (i = 1; i <= n - 1; i++)
+                        {
+                            temp = tasya[i];
+                            dm = i - 1;
+                            while ((dm >= 0) && (tasya[dm] >= temp))
+                            {
+                                tasya[dm + 1] = tasya[dm];
+                                dm--;
+                            }
+                            tasya[dm + 1] = temp;
+                        }
+                        break;
+
+                        case 2:
+                        //proses merge sort
+                       
+
+
+                }
     }
 }
