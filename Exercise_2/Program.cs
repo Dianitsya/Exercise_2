@@ -64,7 +64,12 @@ namespace Exercise_2
 
                         case 2:
                         //proses merge sort
-                       
+                        if (low >= high)
+                            return;
+                        mid = (low+ high) / 2;
+                        i = low
+                        dm = mid + 1
+                        k = low
 
 
                 }
