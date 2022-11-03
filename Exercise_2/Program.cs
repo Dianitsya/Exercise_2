@@ -11,7 +11,7 @@ namespace Exercise_2
         static void Main(string[] args)
         {
             int i, n, dm, temp;
-            int[] tasya = new int[32];
+            int[] tasya = new int[31];
             {
                 while (true)
                 {
@@ -19,7 +19,7 @@ namespace Exercise_2
                     Console.Write("Masukkan banyaknya elemen pada Array : ");
                     string s = Console.ReadLine();
                     n = Int32.Parse(s);
-                    if (n <= 32)
+                    if (n <= 31)
                         break;
                     else
                         Console.WriteLine("\nArray dapat mempunyai maksimal 31 elemen.\n");
