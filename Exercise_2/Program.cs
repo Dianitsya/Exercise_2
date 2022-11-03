@@ -12,6 +12,7 @@ namespace Exercise_2
         {
             int i, n, dm, temp, k, b, a, low, high, mid;
             int[] tasya = new int[31];
+            
             {
                 while (true)
                 {
@@ -73,7 +74,7 @@ namespace Exercise_2
 
                         while ((tasya[i] <= high) && (i <= mid))
                         {
-                            if (tasya[i] <= tasya[dm]
+                            if (tasya[i] <= tasya[dm])
                             {
                                 tasya[k] = tasya[b];
                                 i++;
