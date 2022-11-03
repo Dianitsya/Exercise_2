@@ -94,6 +94,15 @@ namespace Exercise_2
                     case 3:
                         break;
                 }
+                //cetak data sesudah diurutkan
+                Console.WriteLine();
+                Console.WriteLine("Elemen array yang sudah tersusun");
+                Console.WriteLine("--------------------------------");
+                for (i = 0; i < n - 1; i++)
+                {
+                    Console.Write(tasya[i]);
+                }
+                Console.ReadKey();
             }
         }
     }
