@@ -10,7 +10,7 @@ namespace Exercise_2
     {
         static void Main(string[] args)
         {
-            int i, n, dm, temp, k, low, high, mid;
+            int i, n, dm, temp, k, b, a, low, high, mid;
             int[] tasya = new int[31];
             {
                 while (true)
@@ -62,16 +62,39 @@ namespace Exercise_2
                         }
                         break;
 
-                        case 2:
+                    case 2:
                         //proses merge sort
                         if (low >= high)
                             return;
-                        mid = (low+ high) / 2;
-                        i = low
-                        dm = mid + 1
-                        k = low
+                        mid = (low + high) / 2;
+                        i = low;
+                        dm = mid + 1;
+                        k = low;
 
-
+                        while ((tasya[i] <= high) && (i <= mid))
+                        {
+                            if (tasya[i] <= tasya[dm]
+                            {
+                                tasya[k] = tasya[b];
+                                i++;
+                            }
+                            else
+                            {
+                                tasya[dm] = tasya[b];
+                                dm++;
+                                k++;
+                            }
+                        }
+                        
+                        while (dm > high)
+                        {
+                            tasya[dm] = tasya[k];
+                            i++;
+                        }
+                  
                 }
+            }
+        }
     }
 }
+
