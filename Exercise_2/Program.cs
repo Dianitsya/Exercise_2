@@ -35,8 +35,16 @@ namespace Exercise_2
                     Console.Write("<" + (i + 1) + "> ");
                     tasya[i] = Convert.ToInt32(Console.ReadLine());
                 }
+                Console.Write("\n");
+                Console.WriteLine("MEMILIH METODE PENGURUTAN DATA");
+                Console.WriteLine("1. Insertion Sort");
+                Console.WriteLine("2. Merge SORT");
+                Console.WriteLine("3. Exit");
+                Console.WriteLine("--------------------------");
+                Console.Write("Pilihan : ");
+                int pilihan = Convert.ToInt32(Console.ReadLine());
 
-        {
+                {
           
         }
     }
